@@ -1,0 +1,8 @@
+# Ověření smart kontraktu na Moonbeam
+
+1. Nasaď kontrakt na Moonbeam (např. pomocí Hardhat nebo Remix).
+2. Zkopíruj adresu nasazeného kontraktu.
+3. Získej Moonscan API klíč:
+   - Jdi na `moonbeam.moonscan.io`, zaregistruj se a vygeneruj API klíč.
+4. Uprav `hardhat.config.js` (viz výše) s tvým API klíčem a privátním klíčem.
+5. Spusť příkaz pro ověření:
